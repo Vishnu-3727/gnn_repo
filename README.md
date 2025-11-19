@@ -154,6 +154,7 @@ Plots saved in:
 checkpoints/<MODEL>/plots/
 
 📁 Project Structure
+
 GNN Toxicity Predictor
 │
 ├── src/
