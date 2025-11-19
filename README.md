@@ -155,6 +155,7 @@ checkpoints/<MODEL>/plots/
 
 📁 Project Structure
 
+````
 GNN Toxicity Predictor
 │
 ├── src/
@@ -190,6 +191,7 @@ GNN Toxicity Predictor
 ├── requirements.txt
 ├── banner.svg
 └── README.md
+````
 
 🧪 Model Performance
 
