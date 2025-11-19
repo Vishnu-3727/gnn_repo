@@ -1,4 +1,4 @@
-# Clean GNN Repo — Graph Neural Networks for Drug Discovery (Tox21)
+#GNN Repo — Graph Neural Networks for Drug Discovery (Tox21)
 
 **Short summary:**  
 This repository demonstrates a Graph Neural Network (GNN) workflow for molecular property prediction (Tox21 toxicity tasks). It includes data preprocessing, multiple GNN architectures, training with checkpointing and resume, evaluation, plotting, and batch prediction utilities. The project is designed to be beginner-friendly and production-ready for experimentation.
