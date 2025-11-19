@@ -287,31 +287,11 @@ Training appears to 'start from scratch': ensure you specified the same --model 
 
 You changed dataset/features: re-run with --fresh and reprocess.
 
-## 11 — Next improvements (ideas)
-
-TensorBoard logging
-
-Hyperparameter sweep scripts
-
-Unit tests for preprocessing
-
-Docker container + CI for reproducibility
-
-Small web UI for batch uploads
 
 
 
 
-## 12 — License
 
-Use your preferred license (MIT recommended for research demos).
 
-Final notes & recommended next steps
-
-Run a short experiment and evaluate: python -m src.train --epochs 5 then python -m src.evaluate then python -m src.plot_metrics --model GNN.
-
-Save the repo to GitHub with README.md, requirements.txt or environment.yml.
-
-If you want I can also create requirements.txt, .gitignore, and a short CONTRIBUTING.md.
 
 
