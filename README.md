@@ -158,33 +158,33 @@ checkpoints/<MODEL>/plots/
 GNN Toxicity Predictor
 │
 ├── src/
-│   ├── train.py              # Training engine
-│   ├── predict.py            # SMILES → Prediction
-│   ├── eval.py               # AUC evaluation
-│   ├── plot_metrics.py       # Loss/AUC plotting
-│   │
-│   ├── data/
-│   │   └── dataset.py        # Tox21 loader
-│   │
-│   ├── models/
-│   │   ├── gnn.py
-│   │   ├── gcn.py
-│   │   ├── gat.py
-│   │   ├── gin.py
-│   │   ├── pna.py
-│   │   └── model_registry.py
-│   │
-│   └── utils/
+│ ├── train.py # Training engine
+│ ├── predict.py # SMILES → Prediction
+│ ├── eval.py # AUC evaluation
+│ ├── plot_metrics.py # Loss/AUC plotting
+│ │
+│ ├── data/
+│ │ └── dataset.py # Tox21 loader
+│ │
+│ ├── models/
+│ │ ├── gnn.py
+│ │ ├── gcn.py
+│ │ ├── gat.py
+│ │ ├── gin.py
+│ │ ├── pna.py
+│ │ └── model_registry.py
+│ │
+│ └── utils/
 │
 ├── checkpoints/
-│   └── <MODEL>/
-│       ├── latest.pt
-│       ├── best.pt
-│       ├── history.json
-│       └── plots/
+│ └── <MODEL>/
+│ ├── latest.pt
+│ ├── best.pt
+│ ├── history.json
+│ └── plots/
 │
 ├── data/
-│   └── tox21.csv
+│ └── tox21.csv
 │
 ├── environment.yml
 ├── requirements.txt
