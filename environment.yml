@@ -1,0 +1,17 @@
+name: chem
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - rdkit
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pytorch
+  - pytorch-cuda=11.8      # Works on most NVIDIA GPUs on Windows
+  - pip:
+      - torch-geometric
