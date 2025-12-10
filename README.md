@@ -212,9 +212,6 @@ Q: Can I train multiple models?
 
 Yes — each model has its own folder under checkpoints/.
 
-Q: Can I share this repo publicly?
-
-Yes — everything is ready for GitHub.
 
 📜 License
 
